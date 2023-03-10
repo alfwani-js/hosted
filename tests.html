@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>security test</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css"
@@ -20,12 +21,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/style2.css" />
-    <script src="/js/script.js"></script>
-    
 </head>
 <body>
-     <!-- header -->
-     <nav class="flex items-center bg-gray-800 p-3 flex-wrap">
+    <!--header-->
+    <nav class="flex items-center bg-gray-800 p-3 flex-wrap" id="navbarr">
         <a href="index.html" class="p-2 mr-4 inline-flex items-center">
           <svg
             viewBox="0 0 24 24"
@@ -60,16 +59,16 @@
               <span>Home</span>
             </a>
             <a
-              href="test1.html"
-              class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white"
-            >
-              <span>Test 1</span>
-            </a>
-            <a
               href="test2.html"
               class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white"
             >
-              <span>Test 2</span>
+              <span>Risk Profile Analysis</span>
+            </a>
+            <a
+              href="tests.html"
+              class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white"
+            >
+              <span>DPAT Analysis</span>
             </a>
             <a
               href="login.html"
@@ -84,7 +83,7 @@
               <span>Get results</span>
             </a>
             <a
-              href=""
+              href="https://www.scratchandscript.com/contactus"
               class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white"
             >
               <span>Contact Us</span>
@@ -94,605 +93,462 @@
       </nav>
       <!--scroll bar-->
       <div class="scroller">
-        <h2>Risk Profile Analysis Test</h2>
+        <h2>DPAT Test For Schools</h2>
         <div class="progress-container">
           <div class="progress-bar" id="myBar"></div>
         </div>
       </div>
-      <!-- questions -->
-      <form action="/action_page.php">
-        <div id="one">
-        <p><br/><br/>We conduct automated decision making with legal or similar significant effect that includes the use of profiling or algorithmic means or use of sensitive personal data as an element to determine access to services or that results in legal or similarly significant effects;:</p>
-        <a href="#two">
-        <input type="radio" id="html" name="fav_language" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="fav_language" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-        <label for="javascript">JavaScript</label>
-        </a>
-      <hr/>
-      </div>
-      <div id="two">
-        <p><br/>
-           <br/><br/>
-          We use of personal data on a large-scale for a purpose other than that for which the data was initially collected;:</p>
-        <a href="#three">
-        <input type="radio" id="html" name="second" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="second" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="second" value="JavaScript">
-        <label for="javascript">JavaScript</label>
-    </a>
-      <hr/>
-      </div>
-      <div id="three">
-        <p>
-          <br/>
-           <br/><br/>
-          We have made some changes in our internal processing that may result in higher risk to data subjects:</p>
-        <a href="#four"> 
-        <input type="radio" id="html" name="Third" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="Third" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="Third" value="JavaScript">
-        <label for="javascript">JavaScript</label>
-      </a>
-      <hr/>
 
-      </div>
-      <div id="four">
 
-        <p>
-          <br/>
-           <br/><br/>
-          We process sensitive personal data or data relating to children or vulnerable groups:</p>
-        <a href="#five"> 
-        <input type="radio" id="html" name="fourth" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="fourth" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="Fourth" value="JavaScript">
-        <label for="javascript">JavaScript</label>
-      </a><hr/>
-      </div>
-      <div id="five">
-        <p>
-          <br/>
-           <br/> <br/>       
-          
-          We conduct large scale processing of personal data:</p>
-        <a href="#six">
-        <input type="radio" id="html" name="fifth" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="fifth" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="fifth" value="JavaScript">
-        <label for="javascript">JavaScript</label>
-       </a>
-      <hr/>
-      </div>
-      <div id="six">
-        <p>
-          <br/>
-          <br/><br/>
-          We combine, link or cross-reference datasets from different sources and process these for new/different purposes;</p>
-        <a href="#seven">
-        <input type="radio" id="html" name="sixth" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="sixth" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="sixth" value="JavaScript">
-        <label for="javascript">JavaScript</label>
-      <hr/>
-      </div>
-      <div id="seven">
 
-        <p>
-          <br/>
-          <br/><br/>
-          We have adopted innovative use or application of new technological or organizational solutions:</p>
-          <a href="#eight">
-        <input type="radio" id="html" name="seventh" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="seventh" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="seventh" value="JavaScript">
-        <label for="javascript">JavaScript</label>
-      </a>
-      <hr/>
-      </div>
-      <div id="eight">
-        <p> 
-          <br/>
-          <br/><br/>
-          We conduct large scale processing of personal data:</p>
-          <a href="#nine">
-        <input type="radio" id="html" name="eighth" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="eighth" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="eighth" value="JavaScript">
-        <label for="javascript">JavaScript</label>
-      </a>
-      <hr/>
 
-      </div>
-      <div id="nine">
+<form>
+    <p><br/><br/>Your institution has an appropriate data protection policy:</p>
+    <a href="#two">
+      <input type="radio" class ="check" name="choose" value=1>No we don't have the policy<br>
+      <input type="radio" class ="check" name="choose" value=2>We are planning on it <br>
+      <input type="radio" class ="check" name="choose" value=3>it's in the process of being implemented <br>
+      <input type="radio" class ="check" name="choose" value=4>Yes we have the policy <br>
+      <br></a><hr>
+  </form>
+  <form> <div id="two">
+    <p><br/>
+       <br/><br/>
+       Your institution provides data protection awareness training for all staff:</p>
+    <a href="#three">
+      <input type="radio" class ="check" name="choose" value=1>No, we have never provided the awareness training <br>
+      <input type="radio" class ="check" name="choose" value=2>We are planning on giving the training <br>
+      <input type="radio" class ="check" name="choose" value=3>Yes, we have provided training for some of the staff <br>
+      <input type="radio" class ="check" name="choose" value=4>Yes we have provided the training for all staff <br>
+      <br></a><hr/>
+    </form>
+    <form>
+        <div id="three">
+            <p>
+              <br/>
+               <br/><br/>
+               Your institution has a written contract with any processors you use:</p>
+            <a href="#four"> 
+      <input type="radio" class ="check" name="choose" value=1>No we don't  <br>
+      <input type="radio" class ="check" name="choose" value=2>We are planning on it <br>
+      <input type="radio" class ="check" name="choose" value=3>It is in place but not written  <br>
+      <input type="radio" class ="check" name="choose" value=4>yes we have a written contract with processors</a>
+      <br><hr/>
+    </form>
+    <form>
+        <div id="four">
 
-        <p>
-          <br/>
-          <br/><br/>
-          We perform systematic monitoring of publicly accessible areas on a large scale:</p>
-          <a href="#ten">
-        <input type="radio" id="html" name="ninth" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="ninth" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="ninth" value="JavaScript">
-        <label for="javascript">JavaScript</label>
-      </a>
-      <hr/>
+            <p>
+              <br/>
+               <br/><br/>
+              We process sensitive personal data or data relating to children or vulnerable groups:</p>
+            <a href="#five">
+      <input type="radio" class ="check" name="choose" value=1>No, we don't <br>
+      <input type="radio" class ="check" name="choose" value=2>We do it sometimes  <br>
+      <input type="radio" class ="check" name="choose" value=3>We do it regularly<br>
+      <input type="radio" class ="check" name="choose" value=4>Yes, we do 
+      <br></a></div><hr/>
+    </form>
+  
+    <form>
+        <div id="five">
+            <p>
+              <br/>
+               <br/> <br/>       
+              
+               Your institution manages information risks in a structured way so that management understands the business impact of personal data related risks and manages them effectively.</p>
+            <a href="#six">
+      <input type="radio" class ="check" name="choose" value=1> No we dont<br>
+      <input type="radio" class ="check" name="choose" value=2>We do it at times<br>
+      <input type="radio" class ="check" name="choose" value=3>We regularly do<br>
+      <input type="radio" class ="check" name="choose" value=4>yes we do <br>
+      <br></a><hr/>
+  
+    </form>
+    <form>
+        <div id="six">
+            <p>
+              <br/>
+              <br/><br/>
+              Your institution has implemented appropriate technical and Institutional measures to integrate data protection into your processing activities;</p>
+            <a href="#seven">
+      <input type="radio" class ="check" name="choose" value=1>No we don't <br>
+      <input type="radio" class ="check" name="choose" value=2>Sometimes <br>
+      <input type="radio" class ="check" name="choose" value=3>Regularly <br>
+      <input type="radio" class ="check" name="choose" value=4>Yes, we do <br>
+      <br></a><hr/>
+    </form>
+    <form>
+        <div id="seven">
 
-      </div>
-      <div id="ten">
+            <p>
+              <br/>
+              <br/><br/>
+              Your institution understands when you must conduct a DPIA and has processes in place to action this:</p>
+              <a href="#eight">
+      <input type="radio" class ="check" name="choose" value=1>No we dont know when <br>
+      <input type="radio" class ="check" name="choose" value=2>We have conducted a DPIA long ago <br>
+      <input type="radio" class ="check" name="choose" value=3>We conducted DPIA regularly <br>
+      <input type="radio" class ="check" name="choose" value=4>We conduct DPIA when necessary<br>
+      <br></a><hr/>
+    </form>
+    <form>
+        <div id="eight">
+            <p> 
+              <br/>
+              <br/><br/>
+              Your institution has a DPIA framework which links to your existing risk management and project management processes.</p>
+              <a href="#nine">
+      <input type="radio" class ="check" name="choose" value=1>No we don't  <br>
+      <!--<input type="radio" class ="check" name="choose" value=2>sometimes <br>-->
+      <input type="radio" class ="check" name="choose" value=3>We are working on it <br>
+      <input type="radio" class ="check" name="choose" value=4>Yes we have a framework in place
+      <br></a><hr/>
+    </form>
+    <form>
+        <div id="nine">
+
+            <p>
+              <br/>
+              <br/><br/>
+              Your institution has nominated a data protection lead or Data Protection Officer (DPO).</p>
+              <a href="#ten">
+      <input type="radio" class ="check" name="choose" value=1>No we have not nominated a DPO <br>
+      <input type="radio" class ="check" name="choose" value=2>we are planning on nominating a DPO  <br>
+      <!--<input type="radio" class ="check" name="choose" value=3> <br>-->
+      <input type="radio" class ="check" name="choose" value=4>we have a nominated a DPO
+      <br></a><hr>
+    </form>
+    <form>
+        <div id="ten">
 
         <p>
           <br/>
           <br/><br/>
-          We have adopted innovative use or application of new technological or organizational solutions:</p>
+          Decision makers and key people in Your institution demonstrate support for data protection legislation and promote a positive culture of data protection compliance across the business.</p>
         <a href="#eleven">
-        <input type="radio" id="html" name="tenth" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="tenth" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="tenth" value="JavaScript">
-        <label for="javascript">JavaScript</label>
-      </a>
-      <hr/>
-
-      </div>
-      <div id="eleven">
-        <p>
-          <br/>
-          <br/><br/>
-          Our processing activities could prevent a data subject from exercising a right:</p>
-        <a href="#twelve">
-        <input type="radio" id="html" name="eleventh" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="eleventh" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="eleventh" value="JavaScript">
-        <label for="javascript">JavaScript</label>
-      </a>
-      <hr/>
-
-      </div>
-      <div id="twelve">
-        <p>
-          <br/>
-          <br/><br/>
-          We process details around salary, fee, commission, bonus, gratuity, allowance or other remuneration paid or payable to the data subject by any person:</p>
-        <a href="#thirteen">  
-        <input type="radio" id="html" name="twelveth" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="twelveth" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="twelveth" value="JavaScript">
-        <label for="javascript">JavaScript</label>
-      </a>
-      <hr/>
-
-      </div>
-      <div id="thirteen">
-        <p>
-          <br/>
-          <br/><br/>
-          We process details around income that a data subject receives from the sale of any goods or property:</p>
-        <a href="#fourteen">
-        <input type="radio" id="html" name="thirteenth" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="thirteeneth" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="thirteenth" value="JavaScript">
-        <label for="javascript">JavaScript</label>
-      </a>
-      <hr/>
-
-      </div>
-      <div id="fourteen">
-        <p>
-          <br/>
-          <br/><br/>
-          We process credit card, charge card or debit card data issued to or in the name of the data subject.</p>
-          <a href="#fifteen">
-        <input type="radio" id="html" name="fourteenth" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="fourteenth" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="fourteenth" value="JavaScript">
-        <label for="javascript">JavaScript</label></a>
-      <hr/>
-
-      </div>
-      <div id="fifteen">
-        <p>
-          <br/>
-          <br/><br/>
-          We process account numbers a data subject has with any entity that is a bank or finance company.</p>
-          <a href="#sixteen">
-        <input type="radio" id="html" name="fifteenth" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="fifteenth" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="fifteenth" value="JavaScript">
-        <label for="javascript">JavaScript</label>
-          </a>
-      <hr/>
-
-      </div>
-      <div id="sixteen">
-        <p>
-          <br/>
-          <br/><br/>
-          We process information that identifies, or is likely to lead to the identification of a child in conflict with the law or in need of care and protection.</p>
-        <a href="#seventeen">  
-        <input type="radio" id="html" name="sixteenth" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="sixteenth" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="sixteenth" value="JavaScript">
-        <label for="javascript">JavaScript</label></a>
-      <hr/>
-
-      </div>
-      <div id="seventeen">
-        <p>
-          <br/>
-          <br/><br/>
-           We process private key of or relating to a data subject that is used or may be used <br/>
-          - to create a secure electronic record or secure electronic signature;<br/>
-          - to verify the integrity of a secure electronic record; <br/>
-          - to verify the authenticity or integrity of a secure electronic signature<br/>
-          </p>
-          <a href="#eighteen">
-        <input type="radio" id="html" name="seventeenth" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="seventeenth" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="seventeenth" value="JavaScript">
-        <label for="javascript">JavaScript</label>
-       </a>
-      <hr/>
-
-      </div>
-      <div id="eighteen">
-
-        <p>
-          <br/>
-          <br/><br/>
-          
-          We process data about the net worth or creditworthiness of a data subject.</p>
-        <a href="#nineteen">  
-        <input type="radio" id="html" name="eighteenth" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="eighteenth" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="eighteenth" value="JavaScript">
-        <label for="javascript">JavaScript</label>
-       </a>
-      <hr/>
-
-      </div>
-      <div id="nineteen">
-        <p>
-          <br/>
-          <br/>
-          We process data about deposit or withdraw of monies by a data subject with any entity.</p>
-        <a href="#twenty"  >
-        <input type="radio" id="html" name="nineteenth" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="nineteenthalue="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="nineteenth" value="JavaScript">
-        <label for="javascript">JavaScript</label></a>
-      <hr/>
-
-      </div>
-      <div id="twenty">
-        <p><br/><br/><br/>We process data about withdrawal of moneys deposited by individual any entity or a payment system.</p>
-        <a href="#twentyone">
-        <input type="radio" id="html" name="nineteenth" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="nineteenth" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="nineteenth" value="JavaScript">
-        <label for="javascript">JavaScript</label></a>
-      <hr/>
-
-      </div>
-      <div id="twentyone">
-        
-        <p>
-          <br/><br/>
-          <br/>
-          We process data bout the granting by a person of advances, loans and other facilities by which the data subject, being a customer of the entity, has access to funds or financial guarantees. </p>
-        <a href="#twentytwo"> 
-        <input type="radio" id="html" name="twentieth" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="twentieth" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="twentieth" value="JavaScript">
-        <label for="javascript">JavaScript</label>
-        </a>
-      <hr/>
-
-      </div>
-      <div id="twentytwo">
-
-        <p>
-          <br/><br/>
-          <br/>
-          The existence, and amount due or outstanding, of any debt <br/>
-          - owed by the data subject to an entity; <br/>
-          - owed by an entity to the data subject.<br/>
-           </p>
-           <a href ="#twentythree">
-        <input type="radio" id="html" name="twentyfirst" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="twentyfirst" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="twentyfirst" value="JavaScript">
-        <label for="javascript">JavaScript</label>
-      <hr/>
-
-      </div>
-      <div id="twentythree">
-        <p>
-          <br/>
-          <br/><br/>
-          The incurring by the entity of any liabilities on behalf of the data subject. </p>
-          <a href="#24">
-        <input type="radio" id="html" name="twentysecond" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="twentysecond" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="twentysecond" value="JavaScript">
-        <label for="javascript">JavaScript</label></a>
-      <hr/>
-
-      </div>
-      <div id="24">
-        <p><br/><br/><br/>The payment of any moneys, or transfer of any property, by any person to the individual, including the amount of the moneys paid or the value of the property transferred, as the case may be. </p>
-        <a href="#25">
-        <input type="radio" id="html" name="twentythird" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="twentythird" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="twentythird" value="JavaScript">
-        <label for="javascript">JavaScript</label></a>
-      <hr/>
-
-      </div>
-      <div id="25">
-        
-        <p><br/><br/><br/>The data subject’s investment in any capital markets products. </p>
-        <a href="#26">
-        <input type="radio" id="html" name="twentyfour" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="twentyfour" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="twentyfour" value="JavaScript">
-        <label for="javascript">JavaScript</label></a>
-      <hr/>
-
-      </div>
-      <div id="26">
-        <p><br/><br/><br/>Any term and condition, premium or benefits payable, or any detail relating to the condition of health, from an accident, health, or life policy of which the data subject is the policy owner or a beneficiary. </p>
-        <a href="#27">
-        <input type="radio" id="html" name="twentyfive" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="twentyfive" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="twentyfive" value="JavaScript">
-        <label for="javascript">JavaScript</label></a>
-      <hr/>
-
-      </div>
-      <div id="27">
-        <p><br/><br/><br/>The assessment, diagnosis, treatment, prevention or alleviation by a health professional of any of the following affecting the data subject <br/>
-          - any sexually‑transmitted diseases<br/>
-          -  Human Immunodeficiency Virus Infection;<br/>
-          - mental disorder;<br/>
-          - substance abuse and addiction.<br/>
-           </p>
-           <a href="#28">
-        <input type="radio" id="html" name="twentysix" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="twentysix" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="twentysix" value="JavaScript">
-        <label for="javascript">JavaScript</label></a>
-      <hr/>
-
-      </div>
-      <div id="28">
-        <p><br/><br/><br/>The provision of treatment to the individual for or in respect of <br/>
-          - the donation or receipt of a human egg or human sperm <br/>
-          - any contraceptive operation or procedure or abortion<br/>
-           </p>
-           <a href="#29">
-        <input type="radio" id="html" name="twentyseven" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="twentyseven" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="twentyseven" value="JavaScript">
-        <label for="javascript">JavaScript</label></a>
-      <hr/>
-
-      </div>
-      <div id="29">
-        <p><br/><br/><br/>Any of the following <br/>
-          - the donation and removal of any organ from the body of the deceased individual for the purpose of its transplantation into the body of another individual <br/>
-          - the donation and removal of any specified organ from the individual, being a living organ donor, for the purpose of its transplantation into the body of another individual<br/>
-          - the transplantation of any organ mentioned in paragraph (a) or (b) into the body of the individual<br/>
-           </p>
-           <a href="#30">
-        <input type="radio" id="html" name="twentyeight" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="twentyeight" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="twentyeight" value="JavaScript">
-        <label for="javascript">JavaScript</label></a>
-      <hr/>
-
-      </div>
-
-      <div id="30">
-        <p><br/><br/><br/>The suicide or attempted suicide of the individual. </p>
-        <a href="#31">
-        <input type="radio" id="html" name="twentynine" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="twentynine" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="twentynine" value="JavaScript">
-        <label for="javascript">JavaScript</label></a>
-      <hr/>
-
-      </div>
-      <div id="31">
-        <p><br/><br/><br/>Any of the following<br/>
-          - information that the individual is or had been adopted the identity of the natural father or mother of the data subject<br/>
-          - the identity of the adoptive father or mother of the subject<br/>
-          - the identity of any applicant for an adoption order<br/>
-          - the identity of any person whose consent is necessary under that Act for an adoption order to be made, whether or not the court has dispensed with the consent of that person in accordance with that Act.<br/>
-           </p>
-           <a href="#32">
-        <input type="radio" id="html" name="thirty" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="thirty" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="thirty" value="JavaScript">
-        <label for="javascript">JavaScript</label>
-      <hr/>
-
-      </div>
-      <div id="32">
-        <p><br/><br/><br/>Do you collect any of the following data sets?<br/>
-          1. Racial or ethnic origin.<br/>
-          2. Political opinions.<br/>
-          3. Religious or philosophical beliefs.<br/>
-          4. Trade union membership.<br/>
-          5. Genetic data.<br/>
-          6. Sexual orientation and related data.<br/>
-          7. Biometric data.<br/>
-          8. Marital status and family details<br/>
-          9. Physical or mental health or condition</p>
-          <a href="#33">
-        <input type="radio" id="html" name="thirtyone" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="thirtyone" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="thirtyone" value="JavaScript">
-        <label for="javascript">JavaScript</label></a>
-      <hr/>
-
-      </div>
-      <div id="33">
-        <p><br/><br/><br/>We use personal data for marketing purposes </p>
-        <a href="#34">
-        <input type="radio" id="html" name="thirtytwo" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="thirtytwo" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="thirtytwo" value="JavaScript">
-        <label for="javascript">JavaScript</label></a>
-      <hr/>
-
-      </div>
-      <div id="34">
-        <p><br/><br/><br/>Canvassing political support among the electorate.<br/>
-          1. Crime prevention and prosecution of offenders (including operating security CCTV systems).<br/>
-          2. Gambling.<br/>
-          3. Operating an educational institution.<br/>
-          4. Health administration and provision of patient care.<br/>
-          5. Hospitality industry firms but excludes tour guides.<br/>
-          6. Property management including the selling of land.<br/>
-          7. Provision of financial services.<br/>
-          8. Telecommunications network or service providers.<br/>
-          9. Businesses that are wholly or mainly in direct marketing.<br/>
-          10.Transport services firms (including online passenger hailing applications)<br/>
-          11.Businesses that process genetic data.<br/>
-           the policy owner or a beneficiary. </p>
-           
-        <input type="radio" id="html" name="thirtythree" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="thirtythree" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="thirtythree" value="JavaScript">
-        <label for="javascript">JavaScript</label>
-      <hr/>
-
-      </div>
-
-      <!--buttons at the end to receive results-->
-
-      <div class="next">
-        <div class="butt">
-        <a href="test1.html"><button type="button" class="btn btn-primary btn-lg">Retake-test</button></a>
-        <button type="button" class="btn btn-secondary btn-lg">Get-results</button>
-
-
-<button type="button" onclick="displayRadioValue()">
-	Submit
-</button>
-
-<br>
-
-<div id="result"></div>
-
-<script>
-	function displayRadioValue() {
-		document.getElementById("result").innerHTML = "";
-		var ele = document.getElementsByTagName('input');
-		
-		for(i = 0; i < ele.length; i++) {
-			
-			if(ele[i].type="radio") {
-			
-				if(ele[i].checked)
-					document.getElementById("result").innerHTML
-							+= ele[i].name + " Value: "
-							+ ele[i].value + "<br>";
-			}
-		}
-	}
-</script>
-        </div>
-
-
-
-
-      </div>
+      <input type="radio" class ="check" name="choose" value=1>No, they dont <br>
+      <input type="radio" class ="check" name="choose" value=2>Some of them do <br>
+      <input type="radio" class ="check" name="choose" value=3>Most of them do <br>
+      <input type="radio" class ="check" name="choose" value=4>Yes, they do
+      <br></a><hr/>
+    </form>
+    
+    <form>
+        <div id="eleven">
+            <p>
+              <br/>
+              <br/><br/>
+              Senior leaders understand their responsibilities and have attended detailed training:</p>
+            <a href="#twelve">
+       <input type="radio" class ="check" name="choose" value=1>No they do not and have not attended a detailed training <br>
+       <input type="radio" class ="check" name="choose" value=2> some of them understand their responsibility <br>
+       <input type="radio" class ="check" name="choose" value=3>They understand their responsibilities but have not attended a detailed training <br>
+       <input type="radio" class ="check" name="choose" value=4> They understand their responsibility and have attended detailed training
+       <br></a><hr>
+     </form>
      
-      
-      
+     <form>
+        <div id="twelve">
+            <p>
+              <br/>
+              <br/><br/>
+              Administrative staff understand their responsibilities:</p>
+            <a href="#thirteen">
+       <input type="radio" class ="check" name="choose" value=1>They do not <br>
+       <input type="radio" class ="check" name="choose" value=2>They are plans in place <br>
+       <input type="radio" class ="check" name="choose" value=3>They are being educated <br>
+       <input type="radio" class ="check" name="choose" value=4>They are fully aware
+       <br></a><hr>
+     </form>
+     
+     <form>
+        <div id="thirteen">
+            <p>
+              <br/>
+              <br/><br/>
+              Teaching staff understand their responsibilities</p>
+            <a href="#fourteen">
+       <input type="radio" class ="check" name="choose" value=1>The do not<br>
+       <input type="radio" class ="check" name="choose" value=2>They are plans in place <br>
+       <input type="radio" class ="check" name="choose" value=3>They are being educated <br>
+       <input type="radio" class ="check" name="choose" value=4>They are fully aware
+       <br></a><hr>
+     </form>
+     
+     <form>
+        <div id="fourteen">
+            <p>
+              <br/>
+              <br/><br/>
+              There is a record of which staff have taken Data Protection training and when</p>
+              <a href="#fifteen">
+       <input type="radio" class ="check" name="choose" value=1>No there is not. <br>
+       <input type="radio" class ="check" name="choose" value=2>plans are in place  <br>
+       <input type="radio" class ="check" name="choose" value=3>We are collecting the data <br>
+       <input type="radio" class ="check" name="choose" value=4>Yes we have the records
+       <br></a><hr>
+     </form>
+     
+     <form>
+        <div id="fifteen">
+            <p>
+              <br/>
+              <br/><br/>
+              We have appointed a data protection officer who is impartial.</p>
+              <a href="#sixteen">
+       <input type="radio" class ="check" name="choose" value=1>No we dont <br>
+       <input type="radio" class ="check" name="choose" value=2>We are looking for one <br>
+       <input type="radio" class ="check" name="choose" value=3>We have a recent one  <br>
+       <input type="radio" class ="check" name="choose" value=4>we have always had one
+       <br></a><hr>
+     </form>
+     
+     <form>
+        <div id="sixteen">
+            <p>
+              <br/>
+              <br/><br/>
+              The DPO’s contact details have been shared with all data subjects</p>
+            <a href="#seventeen"> 
+       <input type="radio" class ="check" name="choose" value=1>No we dont <br>
+       <input type="radio" class ="check" name="choose" value=2>has been shared to some <br>
+       <input type="radio" class ="check" name="choose" value=3> has been shared to majority <br>
+       <input type="radio" class ="check" name="choose" value=4>Yes we do
+       <br></a><hr>
+     </form>
+     
+     <form>
+        <div id="seventeen">
+            <p>
+              <br/>
+              <br/><br/>
+              We have reviewed all our data processors – everyone we share data with and the software we enter data into
+              </p>
+              <a href="#eighteen">
+       <input type="radio" class ="check" name="choose" value=1>never have we reviewed them <br>
+       <input type="radio" class ="check" name="choose" value=2> we are planning on reviewing them<br>
+       <input type="radio" class ="check" name="choose" value=3>we are reviewing them <br>
+       <input type="radio" class ="check" name="choose" value=4>we have reviewed them <br>
+       <br></a><hr>
+     </form>
+     
+     <form>
+        <div id="eighteen">
 
+            <p>
+              <br/>
+              <br/><br/>
+              
+              We have also reviewed software and apps used in classrooms by teachers.</p>
+            <a href="#nineteen">
+       <input type="radio" class ="check" name="choose" value=1>No we have not reviewed the apps. <br>
+       <input type="radio" class ="check" name="choose" value=2>we are planning on reviewing them. <br>
+       <input type="radio" class ="check" name="choose" value=3>we have are reviewing them. <br>
+       <input type="radio" class ="check" name="choose" value=4>we always reveiw class apps before they are used.
+       <br></a><hr>
+     </form>
+     
+     <form>
+        <div id="nineteen">
+            <p>
+              <br/>
+              <br/>
+              We use due diligence with suppliers and have data processing agreements in place</p>
+            <a href="#twenty"  >
+       <input type="radio" class ="check" name="choose" value=1>No we have no processing agreements <br>
+       <input type="radio" class ="check" name="choose" value=2>We are comming up with processing agreements<br>
+       <input type="radio" class ="check" name="choose" value=3>We have some processing agreements with some suppliers <br>
+       <input type="radio" class ="check" name="choose" value=4>We always have data proccessing agreements with suppliers
+       <br></a><hr>
+     </form>
+    
+     <form>
+        <div id="twenty">
+            <p><br/><br/><br/>Your institution ensures an adequate level of protection for any personal data processed by others on your behalf that is transferred outside the country</p>
+            <a href="#twentyone">
+       <input type="radio" class ="check" name="choose" value=1>No we dont <br>
+       <input type="radio" class ="check" name="choose" value=2>We have minimum level of protection <br>
+       <input type="radio" class ="check" name="choose" value=3>we have high level of protection <br>
+       <input type="radio" class ="check" name="choose" value=4>We ensure all the data is protected
+       <br></a><hr>
+     </form>
+     
+     <form>
+        <div id="twentyone">
+        
+            <p>
+              <br/><br/>
+              <br/>
+              We understand when we would need to conduct a data protection impact assessment (DPIA) </p>
+            <a href="#twentytwo"> 
+       <input type="radio" class ="check" name="choose" value=1>We do not know what DPIA is <br>
+       <input type="radio" class ="check" name="choose" value=2> We have never conducted DPIA<br>
+       <input type="radio" class ="check" name="choose" value=3>We are learning about DPIA<br>
+       <input type="radio" class ="check" name="choose" value=4>We know when to conduct DPIA
+       <br></a><hr>
+     </form>
+     
+     <form>
+        <div id="twentytwo">
+            <p>
+              <br/>
+              <br/><br/>
+              Your institution monitors your own compliance with data protection policies and regularly reviews the effectiveness of data handling and security controls. </p>
+              <a href="#24">
+       <input type="radio" class ="check" name="choose" value=1>No we dont <br>
+       <input type="radio" class ="check" name="choose" value=2>  we are learning about it<br>
+       <input type="radio" class ="check" name="choose" value=3> We did it once a long time ago<br>
+       <input type="radio" class ="check" name="choose" value=4>Yes we do
+       <br></a><hr>
+     </form>
+     <form>
+        <div id="24">
+            <p><br/><br/><br/> We only collect data we need to process</p>
+            <a href="#25"> 
+       <input type="radio" class ="check" name="choose" value=1> We collect alot of data some we dont need <br>
+       <input type="radio" class ="check" name="choose" value=2>most of the data collected is unnecessary <br>
+       <input type="radio" class ="check" name="choose" value=3>some of the data collected is unnecessary <br>
+       <input type="radio" class ="check" name="choose" value=4>we only collect necessary data
+       <br></a><hr>
+     </form>
+     <form>
+        <div id="25">
+        
+            <p><br/><br/><br/>It is clear why we are processing the data in our privacy policy and privacy notices </p>
+            <a href="#26">
+       <input type="radio" class ="check" name="choose" value=1>It is not <br>
+       <input type="radio" class ="check" name="choose" value=2>Some of it is clear <br>
+       <input type="radio" class ="check" name="choose" value=3>Most of it is clear <br>
+       <input type="radio" class ="check" name="choose" value=4>All of it is clear 
+       <br></a><hr>
+     </form>
+     <form>
+        <div id="26">
+            <p><br/><br/><br/>We only keep data that we have a documented reason to keep </p>
+            <a href="#27">
+       <input type="radio" class ="check" name="choose" value=1>We keep all data collected <br>
+       <input type="radio" class ="check" name="choose" value=2>We get rid of some of the data not used <br>
+       <input type="radio" class ="check" name="choose" value=3>We get rid of most of the data not used <br>
+       <input type="radio" class ="check" name="choose" value=4> We get rid of all data that we don't use
+       <br></a><hr>
+     </form>
+     <form>
+        <div id="27">
+            <p><br/><br/><br/>We have updated our privacy notices for each group of data subjects
+               </p>
+               <a href="#28">
+       <input type="radio" class ="check" name="choose" value=1>We have never <br>
+       <input type="radio" class ="check" name="choose" value=2>We did it a long time ago <br>
+       <input type="radio" class ="check" name="choose" value=3>We have done it for some groups <br>
+       <input type="radio" class ="check" name="choose" value=4>We have done it for all group
+       <br></a><hr>
+     </form>
+     <form>
+        <div id="28">
+            <p><br/><br/><br/>The personal data we hold is accurate and, where necessary, 
+              kept up to date; taking every reasonable step to ensure that personal 
+              data that are inaccurate, having regard to the purposes for which they are 
+              processed, are erased or rectified without delay
+               </p>
+               <a href="#29"> 
+       <input type="radio" class ="check" name="choose" value=1>Not sure about accuracy of the data  <br>
+       <input type="radio" class ="check" name="choose" value=2> The data was accurate when collected but never updated <br>
+       <input type="radio" class ="check" name="choose" value=3> The data was accurate when collected but updated take time. <br>
+       <input type="radio" class ="check" name="choose" value=4> The data is always upto date and rectified without delay.
+       <br></a><hr>
+     </form>
+     <form>
+        <div id="29">
+            <p><br/><br/><br/>We have implemented school-wide data and cyber security measures</p>
+               <a href="#30">
+       <input type="radio" class ="check" name="choose" value=1>No we have not implemented them <br>
+       <input type="radio" class ="check" name="choose" value=2> We are planning on implementing them<br>
+       <input type="radio" class ="check" name="choose" value=3>we are on the process of iplementing them <br>
+       <input type="radio" class ="check" name="choose" value=4> we have implemented them
+       <br></a><hr>
+     </form>
+     <form>
+        <div id="30">
+            <p><br/><br/><br/>We have updated our consent procedures </p>
+            <a href="#31">
+       <input type="radio" class ="check" name="choose" value=1>We have never updated them<br>
+       <input type="radio" class ="check" name="choose" value=2>We are planning on updating them <br>
+       <input type="radio" class ="check" name="choose" value=3>We are updating them <br>
+       <input type="radio" class ="check" name="choose" value=4>We have them updated
+       <br></a><hr>
+     </form>
+     <form>
+        <div id="31">
+            <p><br/><br/><br/>Your institution has provided privacy information to individuals.</p>
+               <a href="#32">
+       <input type="radio" class ="check" name="choose" value=1>No we dont have a privacy policy<br>
+       <input type="radio" class ="check" name="choose" value=2>We are planning on comming up with a privacy policy <br>
+       <input type="radio" class ="check" name="choose" value=3>we are comming up with a privacy policy  <br>
+       <input type="radio" class ="check" name="choose" value=4>We have a privacy policy in place
+       <br></a><hr>
+     </form>
+     <form>
+        <div id="32">
+            <p><br/><br/><br/>If Your institution offers online services directly to children, you 
+              communicate privacy information in a way that a child will understand.</p>
+              <a href="#33">
+       <input type="radio" class ="check" name="choose" value=1>No we dont have any online service <br>
+       <input type="radio" class ="check" name="choose" value=2>We dont communicate our privacy policies to the children  <br>
+       <input type="radio" class ="check" name="choose" value=3>We communicate about our policies to children but not clearly <br>
+       <input type="radio" class ="check" name="choose" value=4> We comunicate clearly to children about our privacy information.
+       <br></a><hr>
+     </form>
+     <form>
+        <div id="33">
+        
+            <p>
+              <br/><br/>
+              <br/>
+              Your institution has a process to recognise and respond to individuals' requests to access their personal data. </p>
+            <a href="#34"> 
+       <input type="radio" class ="check" name="choose" value=1>no we don't <br>
+       <input type="radio" class ="check" name="choose" value=2>We are planning on Working on it  <br>
+       <input type="radio" class ="check" name="choose" value=3>We are working on it  <br>
+       <input type="radio" class ="check" name="choose" value=4>It is in place.
+       <br></a><hr>
+     </form>
+     <form>
+        <div id="34">
+            <p><br/><br/><br/>Your institution has processes to ensure that the personal data you hold remains accurate and up to date.</p>
+            <a href="#35"> 
+       <input type="radio" class ="check" name="choose" value=1>no we dont <br>
+       <input type="radio" class ="check" name="choose" value=2>We have plans to ensure this is accomplished <br>
+       <input type="radio" class ="check" name="choose" value=3>We are implementing this <br>
+       <input type="radio" class ="check" name="choose" value=4>Yes we ensure that the data is accurate
+       <br></a><hr>
+     </form>
+     <form>
+        <div id="35">
+            <p><br/><br/><br/>Your institution has a process to securely dispose of personal data that is no longer required 
+              or where an individual has asked you to erase it. </p>
+       <input type="radio" class ="check" name="choose" value=1>No we never get rid of data <br>
+       <input type="radio" class ="check" name="choose" value=2>We are planning to start removing unwanted data <br>
+       <input type="radio" class ="check" name="choose" value=3>We get rid of some of the data  <br>
+       <input type="radio" class ="check" name="choose" value=4>Yes we get rid of all unrequired data
+       <br></a><hr>
+     </form>
+      <input type ="submit" name="resultButton" id = "totalSum" onclick = "handleClick();" value = "Get Result" >
+      <br>
+      <br>
       <!-- footer -->
       <footer id="main-footer" class="py-2">
         <div class="container footer-container">
           <div>
             <img src="image_resources/logo_light1.png" alt="NewsGrid" />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-              facilis nisi, autem dolor quia eius odio sunt quo sint suscipit.
+              Scratch and Script is an EdTech company offering online labs and courses. We host a wide range of practical labs to a worldwide student body.
             </p>
           </div>
           <div>
             <h3>Email Newsletter</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p> P.O Box 49874-00100, Nairobi, Kenya
+              P: (+254) 727 361 217 Email:info@scratchandscript.com </p>
             <form action="">
               <input type="email" placeholder="Enter Email..." />
               <input type="submit" value="subscribe" class="btn btn-primary" />
@@ -701,18 +557,18 @@
           <div>
             <h3>Site Links</h3>
             <ul class="list">
-              <li><a href="#">Help & Support</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="https://www.scratchandscript.com/termsofuse">terms </a></li>
+              <li><a href="https://www.scratchandscript.com/privacypolicy">Privacy Policy</a></li>
+              <li><a href="https://www.scratchandscript.com/contactus">About Us</a></li>
+              <li><a href="https://www.scratchandscript.com/contactus">Contact</a></li>
             </ul>
           </div>
           <div>
-            <h2>Join Our Club</h2>
+            <h2>Get a security test</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, non.
+              Security testing is a process intended to reveal flaws in the security mechanisms of an information system that protect data and maintain functionality as intended.
             </p>
-            <a href="" class="btn btn-secondary">Join Now</a>
+            <a href="index.html" class="btn btn-secondary">Join Now</a>
           </div>
           <div>
             <p>Copyright &copy; 2023, All Rights Reserved</p>
@@ -720,21 +576,36 @@
         </div>
       </footer>
 
-
-
-      <!--javascript internal functions-->
-
       <script>
-        // When the user scrolls the page, execute myFunction 
-        window.onscroll = function() {myFunction()};
-        
-        function myFunction() {
-          var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-          var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-          var scrolled = (winScroll / height) * 100;
-          document.getElementById("myBar").style.width = scrolled + "%";
-        }
-        </script>
+        function handleClick(input){
+  var chk = document.querySelectorAll(".check:checked");
+  var total = 0;
+  if(!chk.length){
+    alert( "You didn't select an answer for all questions")
+  }
+  else{
+    chk.forEach(function(el){
+       total += parseInt(el.getAttribute('value'));
+    });
+    alert("Your percentage security: "+ Math.round((total/136)*100) +" %");;
+  } 
+};
+      </script>
 
+
+ <!--javascript internal functions-->
+
+ <script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function() {myFunction()};
+    
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+    </script>
+    
 </body>
 </html>
